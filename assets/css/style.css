@@ -187,9 +187,9 @@ hr{
     margin-top: 5%;
     height: 600px;
     width: 100%;
-    background: url("C:/Users/ninos/Desktop/Projects/Kindergarten/assets/images/contact.jpg");
+    background: url("../images/contact.jpg");
     background-repeat: no-repeat;
-    background-size:3020px 620px;
+    background-size:2200px 550px;
 }
 #image-outer{
 height: 600px;
