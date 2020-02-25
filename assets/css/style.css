@@ -178,9 +178,9 @@ hr{
     margin-top: 5%;
     height: 600px;
     width: 100%;
-    background: url("C:/Users/ninos/Desktop/Projects/Kindergarten/assets/images/dagis.jpg");
+    background: url("../images/dagis.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: 2200px 550px;
 }
 #contact-image{
     clear: both;
@@ -437,5 +437,9 @@ border-color: #877642;
          margin:10px 50px 0px 70px;
          width: 70%;
      }
+/*-------------------image Text index--------------------*/
+#Kindgarten-image{
+    background-size: 800px 650px;
+}
 
 }
