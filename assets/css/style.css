@@ -175,7 +175,7 @@ hr{
     width: 40%;
 }
 /*------------------------Section------------*/
-#Kindgarten-image{
+.Kindgarten-image{
     margin-top: 5%;
     height: 600px;
     width: 100%;
@@ -192,7 +192,7 @@ hr{
     background-repeat: no-repeat;
     background-size:2200px 550px;
 }
-#image-outer{
+.image-outer{
 height: 600px;
 width: 100%;
 overflow: hidden;
@@ -215,8 +215,7 @@ position: absolute;
 .contact-form{
 margin-top: 50px;
 background-color: rgba(40,40,40,0.7);
-height: 550px;
-width: 650px;
+max-width: 50%;
 position: absolute;
 right: 10%;
 padding: 30px;
@@ -261,7 +260,7 @@ border-color: #877642;
   text-decoration: none;
   color: #555;
 }
-/*-------------------Contact Form--------------------*/
+
 
 /*-------------------Avatar for about us--------------------*/
 .avatar {
@@ -271,8 +270,9 @@ border-color: #877642;
   border-radius: 50%;
 }
 
-
+/*-------------------Contact Form--------------------*/
 .contact-form {
+  float: right;
   margin-top:60px;
   width: 100%;
   max-width: 600px;
@@ -395,10 +395,13 @@ border-color: #877642;
 @media only screen and (max-width: 600px) {
     /*-------------------Contact Form--------------------*/
     .contact-form {
-      padding-top:40px;
-      margin: 100px auto 0;
-      width: 80%;
-      height: 70%
+      width:90%;
+      left: 5%;
+      right: 5%;
+      padding-top: 15%;
+      margin-top: 15%;
+
+      
     }
     .name .input-form {
       width: 100%;
