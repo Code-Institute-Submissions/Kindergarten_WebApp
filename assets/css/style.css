@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Kavivanar");
 
-/*------------------------Color------------*/
+/*------------------------Color And Text------------*/
 .bg-custom{
     background-color: #877642 !important ;
 }
@@ -20,6 +20,11 @@
 }
 .bg-footer-color{
     background: #877642;
+}
+.h-text{
+    font-family:"Oswald", sans-serif;
+    font-size: 40px;
+
 }
 
 /*------------------------Navbar------------*/
@@ -55,6 +60,7 @@
 }
 /*------------------------Footer------------*/
 footer {
+  font-family:"Exo",sans-serif;
   color: white;
   margin-top:100px;
 }
