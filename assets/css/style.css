@@ -33,6 +33,9 @@
     background-size: cover;
     background-position: center;
 }
+p{
+    font-family: "Lato", sans-serif;
+}
 
 /*------------------------Navbar------------*/
 .navbar-nav.navbar-center {
@@ -195,7 +198,6 @@ hr{
 .cover-text{
 color: #fafafa;
 font-size: 130%;
-font-family: Oswald;
 letter-spacing: 1px;
 height: 230px;
 width: 650px;
