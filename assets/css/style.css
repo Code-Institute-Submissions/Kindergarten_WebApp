@@ -24,7 +24,16 @@
 .h-text{
     font-family:"Oswald", sans-serif;
     font-size: 40px;
+    text-transform: uppercase;
 
+}
+.bg-contact{
+    height: 100vh;
+    background:rgba(230, 227, 227, 0.767);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow:hidden;
 }
 
 /*------------------------Navbar------------*/
@@ -217,6 +226,7 @@ body{
 }
 .contact-form-color{
     color: #fafafa;
+    font-family:"Exo",sans-serif;
 }
 
 	.col-md-5{
