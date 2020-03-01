@@ -28,12 +28,10 @@
 
 }
 .bg-contact{
-    height: 100vh;
-    background:rgba(230, 227, 227, 0.767);
+    background:rgba(230, 230, 230, 0.774);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow:hidden;
 }
 
 /*------------------------Navbar------------*/
