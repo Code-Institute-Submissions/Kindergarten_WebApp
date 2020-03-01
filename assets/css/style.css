@@ -175,12 +175,12 @@ hr{
 
 /*------------------Index------------------*/
 .Kindgarten-image{
-    margin-top: 5%;
-    height: 600px;
-    width: 100%;
-    background: url("../images/dagis.jpg");
+    height: 100vh;
+    background-image: url("../images/home_image1.jpg");
     background-repeat: no-repeat;
-    background-size: 2200px 550px;
+    background-size: cover;
+    background-position: center;
+
 }
 .cover-text{
 color: #fafafa;
@@ -191,9 +191,11 @@ height: 200px;
 width: 650px;
 padding-top: 5px;
 padding-left:10px;
-background-color: rgba(0, 0, 0, .7);
-top:180px;
-left: 15px;
+border-bottom-left-radius: 5%;
+border-bottom-right-radius: 5%;
+background-color: rgba(58, 36, 36, 0.4);
+margin-top:10%;
+left: 10%;
 position: absolute;
 }
 
@@ -329,7 +331,7 @@ body{
          margin-left:5px;
      }
      .cover-text{
-         margin:10px 50px 0px 70px;
+         margin:50% 50px 0px 70px;
          width: 70%;
      }
      .Kindgarten-image{
