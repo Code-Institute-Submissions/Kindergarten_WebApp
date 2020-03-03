@@ -485,8 +485,13 @@ hr {
 	}
 	/*-------------------Contact Form--------------------*/
     .header-contact{
-         margin-top: 25%;
-         padding-bottom: 50%;
+         margin-top: 30%;
+         
+    }
+    .col-form-group{
+        margin-top:0 ;
+        padding-top:0;
+        
     }
 	.contact-form {
 		width: 100%;
@@ -532,6 +537,11 @@ hr {
 		flex: 0 0 50%;
 		max-width: 100%;
 	}
+            .header-contact{
+         margin-top: 10%;
+         
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -539,5 +549,9 @@ hr {
 		display: flex;
 		flex-direction: column-reverse;
 	}
+        .header-contact{
+         margin-top: 15%;
+         
+    }
 
 }
