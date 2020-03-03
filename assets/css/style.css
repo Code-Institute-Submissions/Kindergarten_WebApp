@@ -485,7 +485,8 @@ hr {
 	}
 	/*-------------------Contact Form--------------------*/
     .header-contact{
-         margin-top: 30%;
+         background-color: rgb(104, 145, 162);
+         margin-top:30%; 
          
     }
     .col-form-group{
