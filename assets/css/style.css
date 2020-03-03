@@ -121,6 +121,15 @@ p {
 
 /*--------------Contact-------------------*/
 
+.header-contact{
+    margin-top: 6%;
+    padding-bottom: 1%;
+}
+.header-contact h1{
+    font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+}
+
 .contact {
 	padding: 4%;
 	height: 400px;
@@ -453,7 +462,7 @@ hr {
 
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
 	/*-------------------Index Cover Text and Image--------------------*/
 	.cover-text h1 {
 		text-align: left;
@@ -475,8 +484,12 @@ hr {
 		width: 65%;
 	}
 	/*-------------------Contact Form--------------------*/
+    .header-contact{
+         margin-top: 25%;
+         padding-bottom: 50%;
+    }
 	.contact-form {
-		width: 90%;
+		width: 100%;
 		left: 5%;
 		right: 5%;
 		padding-top: 15%;
@@ -510,6 +523,7 @@ hr {
 		margin-bottom: 1%;
 		padding-bottom: 1%;
 	}
+    
 }
 
 @media (min-width: 768px) {
@@ -525,4 +539,5 @@ hr {
 		display: flex;
 		flex-direction: column-reverse;
 	}
+
 }
