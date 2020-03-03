@@ -26,7 +26,6 @@
 
 .h-text {
 	font-family: "Oswald", sans-serif;
-	font-size: 40px;
 	text-transform: uppercase;
 }
 
@@ -39,6 +38,10 @@
 
 p {
 	font-family: "Lato", sans-serif;
+}
+.parent-about-text{
+    font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
 }
 
 
@@ -111,7 +114,7 @@ p {
 }
 
 .bt-more-custom {
-	margin-left: 75%;
+	margin-left: auto;
 }
 /*--------------End Index-------------------*/
 
@@ -452,7 +455,7 @@ hr {
 
 @media only screen and (max-width: 700px) {
 	/*-------------------Index Cover Text and Image--------------------*/
-	.cover-text h2 {
+	.cover-text h1 {
 		text-align: left;
 		font-size: 100%;
         margin-left: 5px;
