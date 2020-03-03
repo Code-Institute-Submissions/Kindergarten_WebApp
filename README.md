@@ -1,35 +1,29 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Kindergarten:
+Presentation of static data for the parents who wanted to enrol their children in that preschool.
+Information consists of the preschool activities, how they work curriculum defines goals that the business should strive for.
+The educational activities must be carried out so that it stimulates and challenges the development and learning of children.
+All information about preschool teachers and nurses working in that preschool.
+## UX:
+In general, present information about kindergartens and their substance and goals. this website is for the parents who want to enrol their children in that preschool. 
+And to help them to get all information about the kindergartens and contact information. 
+Information that is available in this website is about the staff, what experience they have, and what activity they have for children. 
+And what did says those other parents who have children in this kindergarten about the kindergarten?
+## Existing Features:
+There are four general pages (Home, Contact, About us, Our staff and the login). In the pages (Home, Contact, about us, our staff) that present all information about kindergarten and their activity,
+staff and goals. and how to contact them if a parent wanted to enrol his/her child in the kindergartens. 
+## Features Left to Implement:
+-	Login: I have done layout (UX Design) but logic should be done in the future.
+-	profile page: Displays all information about children's activities that are enrolled in preschool for their parents.
+-	Every child should have a private profile that should be accessible only to him/her. It shows how he/she is developing and some info about him/her.
+## Technologies Used:
+-	Code Instistute: materials and homework and projector during the lesson.
+-	bootstrap 4: to perform responsive for the WepApp.
+-	JavaScript: to perform the active class for the navbar links.
+-	Websites like: (stackoverflow.com, css-tricks.com, w3schools.com). 
+## Testing
+I have tested web page with my mentor. initially I got some feedback and I made a little changes.
+-	Home page: have changed the background image and made it more impact. It was a gap between the image and the footer, and I have added parents comments (what they think about kindergarten).
+-	Contact us page: I have changed the hole page and make it more consistency with other pages. 
+    Have tested the form to submit the empty inputs and verify that an error message about the required fields appears and it work.
+-	Tested all pages are responsive and work on small devices.
 
-Welcome ninos77,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Expose*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Expose*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
