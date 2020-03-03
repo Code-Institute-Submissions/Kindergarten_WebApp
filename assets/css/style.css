@@ -39,8 +39,9 @@
 p {
 	font-family: "Lato", sans-serif;
 }
-.parent-about-text{
-    font-family: "Oswald", sans-serif;
+
+.parent-about-text {
+	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
 }
 
@@ -85,8 +86,9 @@ p {
 	letter-spacing: 7px;
 	text-transform: uppercase;
 }
-.bt-login:hover{
-    background-color: #cea570;
+
+.bt-login:hover {
+	background-color: #cea570;
 }
 
 
@@ -116,17 +118,20 @@ p {
 .bt-more-custom {
 	margin-left: auto;
 }
+
+
 /*--------------End Index-------------------*/
 
 
 /*--------------Contact-------------------*/
 
-.header-contact{
-    margin-top: 6%;
-    padding-bottom: 1%;
+.header-contact {
+	margin-top: 6%;
+	padding-bottom: 1%;
 }
-.header-contact h1{
-    font-family: "Oswald", sans-serif;
+
+.header-contact h1 {
+	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
 }
 
@@ -193,6 +198,8 @@ p {
 	color: #877642;
 	box-shadow: #fafafa !important;
 }
+
+
 /*-------------End Contact--------------*/
 
 
@@ -218,6 +225,8 @@ p {
 	border-style: inset;
 	border-width: 1px;
 }
+
+
 /*-------------------End about us--------------------*/
 
 
@@ -249,6 +258,8 @@ p {
 	text-decoration: none;
 	color: #555;
 }
+
+
 /*-------------------End Our Staff--------------------*/
 
 
@@ -375,85 +386,87 @@ hr {
 
 /*--------------End Footer-------------------*/
 
+
 /*--------------LogIn-------------------*/
+
 .bg-color {
-    background-image: linear-gradient(rgba(197, 202, 204, 0.87), rgba(172, 173, 162, 0.829));
-    background-repeat: no-repeat;
+	background-image: linear-gradient(rgba(197, 202, 204, 0.87), rgba(172, 173, 162, 0.829));
+	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-
-
 }
 
 .card-container.card {
-    max-width: 500px;
-    padding: 150px 40px;
-    top: 200px;
-    margin: 0 auto;
+	max-width: 500px;
+	padding: 150px 40px;
+	top: 200px;
+	margin: 0 auto;
 }
-
 
 .form-signin #inputEmail,
 .form-signin #inputPassword {
-    direction: ltr;
-    height: 44px;
-    font-size: 16px;
+	direction: ltr;
+	height: 44px;
+	font-size: 16px;
 }
 
 .form-signin input[type=email],
 .form-signin input[type=password],
 .form-signin input[type=text],
 .form-signin button {
-    width: 100%;
-    display: block;
-    margin-bottom: 10px;
-    z-index: 1;
-    position: relative;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	z-index: 1;
+	position: relative;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .form-signin .form-control:focus {
-    border-color: rgb(104, 145, 162);
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+	border-color: rgb(104, 145, 162);
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(104, 145, 162);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(104, 145, 162);
 }
 
 .btn.btn-signin {
-    background-color: rgb(156, 141, 90);
-    color: white;
-    padding: 0px;
-    font-weight: 700;
-    font-size: 14px;
-    height: 36px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    border: none;
-    -o-transition: all 0.218s;
-    -moz-transition: all 0.218s;
-    -webkit-transition: all 0.218s;
-    transition: all 0.218s;
+	background-color: rgb(156, 141, 90);
+	color: white;
+	padding: 0px;
+	font-weight: 700;
+	font-size: 14px;
+	height: 36px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: none;
+	-o-transition: all 0.218s;
+	-moz-transition: all 0.218s;
+	-webkit-transition: all 0.218s;
+	transition: all 0.218s;
 }
 
 .btn.btn-signin:hover,
 .btn.btn-signin:active,
 .btn.btn-signin:focus {
-    background-color: rgb(226, 181, 83);
+	background-color: rgb(226, 181, 83);
 }
 
 .forgot-password {
-    color: rgb(104, 145, 162);
+	color: rgb(104, 145, 162);
 }
 
 .forgot-password:hover,
 .forgot-password:active,
-.forgot-password:focus{
-    color: rgb(107, 110, 62);
+.forgot-password:focus {
+	color: rgb(107, 110, 62);
 }
+
+
 /*--------------End LogIn-------------------*/
+
 
 /*******************************
           Media Queries
@@ -467,9 +480,9 @@ hr {
 	.cover-text h1 {
 		text-align: left;
 		font-size: 100%;
-        margin-left: 5px;
+		margin-left: 5px;
 		padding: 2%;
-        padding-bottom: 1px;
+		padding-bottom: 1px;
 	}
 	.cover-text p {
 		text-align: left;
@@ -484,16 +497,13 @@ hr {
 		width: 65%;
 	}
 	/*-------------------Contact Form--------------------*/
-    .header-contact{
-         background-color: rgb(104, 145, 162);
-         margin-top:30%; 
-         
-    }
-    .col-form-group{
-        margin-top:0 ;
-        padding-top:0;
-        
-    }
+	.header-contact {
+		margin-top: 30%;
+	}
+	.col-form-group {
+		margin-top: 0;
+		padding-top: 0;
+	}
 	.contact-form {
 		width: 100%;
 		left: 5%;
@@ -529,7 +539,6 @@ hr {
 		margin-bottom: 1%;
 		padding-bottom: 1%;
 	}
-    
 }
 
 @media (min-width: 768px) {
@@ -538,11 +547,9 @@ hr {
 		flex: 0 0 50%;
 		max-width: 100%;
 	}
-            .header-contact{
-         margin-top: 10%;
-         
-    }
-    
+	.header-contact {
+		margin-top: 10%;
+	}
 }
 
 @media (max-width: 768px) {
@@ -550,9 +557,7 @@ hr {
 		display: flex;
 		flex-direction: column-reverse;
 	}
-        .header-contact{
-         margin-top: 15%;
-         
-    }
-
+	.header-contact {
+		margin-top: 15%;
+	}
 }
